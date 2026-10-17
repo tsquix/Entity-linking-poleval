@@ -1,0 +1,27 @@
+# Pamięć podręczna Pythona i środowiska wirtualne
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+wandb/
+.env
+
+# Wagi modeli (bardzo ważne, by tego nie wysłać na GitHuba/GitLaba!)
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Surowe dane z PolEval
+data/
+*.tsv
+*.jsonl
+*.bz2
+*.csv
+
+# Pliki tymczasowe Jupyter Notebook / Colab
+.ipynb_checkpoints/
+
+# Inne
+.DS_Store
