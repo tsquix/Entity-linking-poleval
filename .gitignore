@@ -14,7 +14,7 @@ wandb/
 *.bin
 
 # Surowe dane z PolEval
-data/
+data/raw/
 *.tsv
 *.jsonl
 *.bz2
